@@ -1,4 +1,4 @@
-<?php
+  <?php
   /**
   * Requires the "PHP Email Form" library
   * The "PHP Email Form" library is available only in the pro version of the template
@@ -14,6 +14,8 @@
   } else {
     die( 'Unable to load the "PHP Email Form" Library!');
   }
+
+
 
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
@@ -39,3 +41,5 @@
 
   echo $contact->send();
 ?>
+
+-->
