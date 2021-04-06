@@ -1019,12 +1019,12 @@ section {
   border-bottom: 1px solid #eceff0;
   overflow: hidden;
   background: #fff;
-  height: 120px;
+  height: 100px;
   padding: 40px;
 }
 
 .clients .client-logo img {
-  max-width: 50%;
+  max-width: 60%;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
 }
